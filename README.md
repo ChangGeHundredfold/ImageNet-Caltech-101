@@ -5,6 +5,9 @@ This project uses a pre-trained ResNet-50 model from [PyTorch Vision](https://py
 which is licensed under [BSD 3-Clause](LICENSE-PYTORCH), and the [Caltech-101 dataset](http://www.vision.caltech.edu/Image_Datasets/Caltech101/).
 
 
-"""
+```bash
+# Download the dataset from Caltech's official website
 wget http://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategories.tar.gz
-"""
+
+# Extract the dataset
+tar -xvzf 101_ObjectCategories.tar.gz
