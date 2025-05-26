@@ -14,3 +14,5 @@ tar -xvzf 101_ObjectCategories.tar.gz
 ```
 
 This will create a folder named 101_ObjectCategories/ containing 101 object categories.
+
+We make split datasets into trianing, validating and testing set in __task1.ipynb__.
