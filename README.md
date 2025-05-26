@@ -11,3 +11,6 @@ wget http://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategorie
 
 # Extract the dataset
 tar -xvzf 101_ObjectCategories.tar.gz
+```
+
+This will create a folder named 101_ObjectCategories/ containing 101 object categories.
