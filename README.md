@@ -37,3 +37,10 @@ and load weights using:
 ```python
 model.load_state_dict(torch.load("your path"))
 ```
+
+
+
+### 🔗 Google Drive
+The trained model weight of Alexnet and Resnet can be found in:
+- [Model Weight 1](https://drive.google.com/file/d/1SbtC3HwTijjCy57pbnTD6PehE71VpZgv/view?usp=sharing)
+- [Model Weight 2](https://drive.google.com/file/d/1zLLmux0JkzHPDW_W2iU6Biz1slylDkUr/view?usp=sharing)
