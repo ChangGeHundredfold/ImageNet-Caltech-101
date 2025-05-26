@@ -23,3 +23,17 @@ To monitor training metrics such as loss and accuracy, use [TensorBoard](https:/
 
 ```bash
 tensorboard --logdir runs
+```
+## 🏋️ Model weight
+
+After training your model, you can save its weights using:
+
+```python
+torch.save(model.state_dict(), f"resnet18_caltech101_lr{lr}_mom{momentum}_ep{num_epochs}.pth")
+```
+
+and load weights using:
+
+```python
+model.load_state_dict(torch.load("your path"))
+```
